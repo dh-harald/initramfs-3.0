@@ -56,7 +56,7 @@ file /res/keys ${INITRAMFS_SOURCE_PATH}/res/keys 0644 0 0
 
 # /system
 dir /system/etc 0755 0 0
-file /system/etc/recovery.fstab ${INITRAMFS_SOURCE_PATH}/system/etc/recovery.fstab 0644 0 0
+file /system/etc/recovery.fstab ${INITRAMFS_SOURCE_PATH}/misc/recovery.fstab 0644 0 0
 
 # /tmp
 dir /tmp/bootchart 0755 0 0
