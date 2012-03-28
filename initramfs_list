@@ -54,9 +54,9 @@ file /res/images/icon_firmware_install.png ${INITRAMFS_SOURCE_PATH}/res/images/i
 file /res/images/icon_firmware_error.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_firmware_error.png 0644 0 0
 file /res/keys ${INITRAMFS_SOURCE_PATH}/res/keys 0644 0 0
 
-# /system
-dir /system/etc 0755 0 0
-file /system/etc/recovery.fstab ${INITRAMFS_SOURCE_PATH}/misc/recovery.fstab 0644 0 0
+# /misc
+dir /misc 0755 0 0
+file /misc/recovery.fstab ${INITRAMFS_SOURCE_PATH}/misc/recovery.fstab 0644 0 0
 
 # /tmp
 dir /tmp/bootchart 0755 0 0
