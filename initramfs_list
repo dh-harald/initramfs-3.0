@@ -17,7 +17,6 @@ file /ueventd.rc ${INITRAMFS_SOURCE_PATH}/ueventd.rc 0644 0 0
 file /ueventd.spica.rc ${INITRAMFS_SOURCE_PATH}/ueventd.spica.rc 0644 0 0
 file /default.prop ${INITRAMFS_SOURCE_PATH}/default.prop 0644 0 0
 file /bootlogo.png ${INITRAMFS_SOURCE_PATH}/bootlogo.png 0644 0 0
-slink /etc /system/etc 0777 0 0
 
 # /lib
 dir /lib/modules 0755 0 0
@@ -40,12 +39,19 @@ slink /sbin/ueventd /init 0755 0 0
 # /res
 dir /res/images 0755 0 0
 file /res/images/icon_clockwork.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_clockwork.png 0644 0 0
-file /res/images/indeterminate1.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate1.png 0644 0 0
-file /res/images/indeterminate2.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate2.png 0644 0 0
-file /res/images/indeterminate3.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate3.png 0644 0 0
-file /res/images/indeterminate4.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate4.png 0644 0 0
-file /res/images/indeterminate5.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate5.png 0644 0 0
-file /res/images/indeterminate6.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate6.png 0644 0 0
+file /res/images/indeterminate01.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate01.png 0644 0 0
+file /res/images/indeterminate02.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate02.png 0644 0 0
+file /res/images/indeterminate03.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate03.png 0644 0 0
+file /res/images/indeterminate04.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate04.png 0644 0 0
+file /res/images/indeterminate05.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate05.png 0644 0 0
+file /res/images/indeterminate06.png ${INITRAMFS_SOURCE_PATH}/res/images/indeterminate06.png 0644 0 0
+file /res/images/icon_installing_overlay01.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_installing_overlay01.png 0644 0 0
+file /res/images/icon_installing_overlay02.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_installing_overlay02.png 0644 0 0
+file /res/images/icon_installing_overlay03.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_installing_overlay03.png 0644 0 0
+file /res/images/icon_installing_overlay04.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_installing_overlay04.png 0644 0 0
+file /res/images/icon_installing_overlay05.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_installing_overlay05.png 0644 0 0
+file /res/images/icon_installing_overlay06.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_installing_overlay06.png 0644 0 0
+file /res/images/icon_installing_overlay07.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_installing_overlay07.png 0644 0 0
 file /res/images/icon_error.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_error.png 0644 0 0
 file /res/images/icon_installing.png ${INITRAMFS_SOURCE_PATH}/res/images/icon_installing.png 0644 0 0
 file /res/images/progress_fill.png ${INITRAMFS_SOURCE_PATH}/res/images/progress_fill.png 0644 0 0
