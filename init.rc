@@ -34,11 +34,6 @@ loglevel 3
 # but someday that may change.
     symlink /system/vendor /vendor
 
-# create mountpoints
-    mkdir /mnt 0775 root system
-    mkdir /sdcard 0000 system system
-    symlink /sdcard /mnt/sdcard
-
 # Create cgroup mount point for cpu accounting
     mkdir /acct
     mount cgroup none /acct cpuacct
