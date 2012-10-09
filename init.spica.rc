@@ -311,3 +311,11 @@ on property:sys.shutdown.requested=1recovery
 on property:sys.shutdown.requested=1bootloader
     write /data/.crashguard 1
 
+service console /bin/sh
+    console
+    disabled
+    user root
+    group system
+
+on property:ro.secure=0
+    start console
